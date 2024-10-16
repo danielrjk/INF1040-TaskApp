@@ -25,7 +25,7 @@ def compactar_lista(lista_dicionarios, arquivo):
         arquivo (file-like object): Um objeto de arquivo binário aberto para escrita.
 
     Returns:
-        tuple: Uma tupla contendo um código de retorno e o retorno em si.
+        int: Um inteiro contendo um código de retorno.
     """
     try:
         lista_string = str(lista_dicionarios)
